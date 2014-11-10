@@ -4,4 +4,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     
+    <GridLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="1"
+        android:columnCount="3">
+        
+        <ImageButton 
+            android:layout_column="0"
+            android:id="@+id/excStart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/> 
+            
+        <ImageButton 
+            android:layout_column="1"
+            android:id="@+id/excLog"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        
+        <ImageButton 
+            android:layout_column="2"
+            android:id="@+id/excInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </GridLayout>
 </LinearLayout>
