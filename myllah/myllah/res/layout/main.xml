@@ -11,6 +11,7 @@
         android:columnCount="3">
         
         <ImageButton 
+            android:src="@drawable/ic_launcher"
             android:layout_column="0"
             android:id="@+id/excStart"
             android:layout_width="wrap_content"

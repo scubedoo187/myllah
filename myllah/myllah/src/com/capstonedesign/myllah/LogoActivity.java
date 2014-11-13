@@ -12,7 +12,7 @@ public class LogoActivity extends Activity{
 	super.onCreate(savedInstanceState);
 	setContentView(R.layout.logo);
 		
-	requestWindowFeature(Window.FEATURE_NO_TITLE);
+	//requestWindowFeature(Window.FEATURE_NO_TITLE);
 	getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 			WindowManager.LayoutParams.FLAG_FULLSCREEN);
 	

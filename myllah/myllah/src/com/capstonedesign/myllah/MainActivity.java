@@ -25,6 +25,14 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent intent = new Intent(MainActivity.this, SelectActivity.class);
 				startActivity(intent);
+
+			}
+		});
+        
+        excInfo.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, ExcInfoActivity.class);
+				startActivity(intent);
 			}
 		});
     }
