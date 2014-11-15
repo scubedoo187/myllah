@@ -2,25 +2,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="@drawable/main_background1">
     
         <ImageButton 
+            android:background="#00ff0000"
+            android:src="@drawable/main_button1"
             android:layout_weight="1"
-            android:src="@drawable/button1"
             android:id="@+id/excStart"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"/> 
             
-        <ImageButton 
+        <ImageButton
+            android:background="#00ff0000" 
+            android:src="@drawable/main_button2"
             android:layout_weight="1"
-            android:src="@drawable/button2"
             android:id="@+id/excLog"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"/>
         
         <ImageButton 
+            android:background="#00ff0000"
+            android:src="@drawable/main_button3"
             android:layout_weight="1"
-            android:src="@drawable/button3"
             android:id="@+id/excInfo"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"/>

@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        setTitle("메뉴 선택");
+        setTitle("메뉴 선택"); 
         
         startActivity(new Intent(this, LogoActivity.class));
         
