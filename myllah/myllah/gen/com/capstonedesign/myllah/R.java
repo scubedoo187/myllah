@@ -22,27 +22,37 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int button1=0x7f020000;
+        public static final int button2=0x7f020001;
+        public static final int button3=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000c;
-        public static final int btn1=0x7f080004;
-        public static final int btn2=0x7f080005;
-        public static final int btn3=0x7f080006;
-        public static final int btn4=0x7f080007;
+        public static final int action_settings=0x7f080013;
+        public static final int btn1=0x7f080003;
+        public static final int btn10=0x7f08000c;
+        public static final int btn11=0x7f08000d;
+        public static final int btn2=0x7f080004;
+        public static final int btn3=0x7f080005;
+        public static final int btn4=0x7f080006;
+        public static final int btn5=0x7f080007;
+        public static final int btn6=0x7f080008;
+        public static final int btn7=0x7f080009;
+        public static final int btn8=0x7f08000a;
+        public static final int btn9=0x7f08000b;
         public static final int dumbBell=0x7f080002;
-        public static final int excInfo=0x7f08000b;
-        public static final int excLog=0x7f08000a;
-        public static final int excStart=0x7f080009;
-        public static final int logoImg=0x7f080008;
+        public static final int excInfo=0x7f080012;
+        public static final int excLog=0x7f080011;
+        public static final int excStart=0x7f080010;
+        public static final int logoImg=0x7f08000f;
         public static final int pushUp=0x7f080000;
         public static final int sitUp=0x7f080001;
-        public static final int webview=0x7f080003;
+        public static final int webview=0x7f08000e;
     }
     public static final class layout {
         public static final int excselect=0x7f030000;
-        public static final int info=0x7f030001;
-        public static final int infomenu=0x7f030002;
+        public static final int infomenu=0x7f030001;
+        public static final int infoweb=0x7f030002;
         public static final int logo=0x7f030003;
         public static final int main=0x7f030004;
     }

@@ -27,6 +27,7 @@
         <activity android:name="com.capstonedesign.myllah.LogoActivity"></activity>
         <activity android:name="com.capstonedesign.myllah.ExcInfoActivity"></activity>
         <activity android:name="com.capstonedesign.myllah.SelectActivity"></activity>
+        <activity android:name="com.capstonedesign.myllah.ExcInfoWebView"></activity>
     </application>
 
 </manifest>
