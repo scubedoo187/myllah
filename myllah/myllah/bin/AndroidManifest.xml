@@ -31,6 +31,7 @@
         <activity android:name="com.capstonedesign.myllah.SelectActivity"
             		android:theme="@style/AppBaseTheme"></activity>
         <activity android:name="com.capstonedesign.myllah.ExcInfoWebView"></activity>
+        <activity android:name="com.capstonedesign.myllah.ExcCount"></activity>
     </application>
 
 </manifest>
