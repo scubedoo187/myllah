@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/main_background1" >
+    android:background="@drawable/new_main_background" >
     
     <Button 
         android:id="@+id/btn1"
