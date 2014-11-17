@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="@drawable/main_background1">
+    android:background="@drawable/new_main_background">
     
         <ImageButton 
             android:background="#00ff0000"

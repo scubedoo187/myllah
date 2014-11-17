@@ -13,10 +13,10 @@ public class SelectActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.excselect);
 		
-		pushUp = (ImageButton) findViewById(R.id.pushUp);
+	/*	pushUp = (ImageButton) findViewById(R.id.pushUp);
 		sitUp = (ImageButton) findViewById(R.id.sitUp);
 		dumbBell = (ImageButton) findViewById(R.id.dumbBell);
-		
+		*/
 		
 	}
 
