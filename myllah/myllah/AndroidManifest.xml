@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon_72x72"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -32,6 +32,7 @@
             		android:theme="@style/AppBaseTheme"></activity>
         <activity android:name="com.capstonedesign.myllah.ExcInfoWebView"></activity>
         <activity android:name="com.capstonedesign.myllah.ExcCount"></activity>
+        <activity android:name="android.app.ListActivity"></activity>
     </application>
 
 </manifest>

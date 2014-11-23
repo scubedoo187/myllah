@@ -8,12 +8,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.Toast;
 
-public class SelectActivity extends Activity implements OnItemClickListener {
+public class SelectActivity extends Activity {
 	ListView list;
 	ArrayList<ImgBtn> imgArr;
 	myAdapter mAdapter;
+	ImageButton imageBtn;
 	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -29,10 +32,5 @@ public class SelectActivity extends Activity implements OnItemClickListener {
 
 		mAdapter = new myAdapter(this, R.layout.imgbtn, imgArr);
 		list.setAdapter(mAdapter);
-		list.setOnItemClickListener(this);
-	}
-	
-	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-		
 	}
 }
