@@ -33,6 +33,9 @@
         <activity android:name="com.capstonedesign.myllah.ExcInfoWebView"></activity>
         <activity android:name="com.capstonedesign.myllah.ExcCount"></activity>
         <activity android:name="android.app.ListActivity"></activity>
+        <activity android:name="com.capstonedesign.myllah.CalendarActivity"></activity>
+        <activity android:name="com.capstonedesign.myllah.ExToday"></activity>
+        <activity android:name="com.capstonedesign.myllah.Detail"></activity>
     </application>
 
 </manifest>

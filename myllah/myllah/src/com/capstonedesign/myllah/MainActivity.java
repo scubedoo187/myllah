@@ -35,7 +35,8 @@ public class MainActivity extends Activity {
         
         excLog.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				
+				Intent intent = new Intent(MainActivity.this, CalendarActivity.class);
+				startActivity(intent);
 			}
 		});
         
