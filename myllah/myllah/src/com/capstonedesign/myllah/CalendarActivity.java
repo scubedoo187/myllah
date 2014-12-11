@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class CalendarActivity extends Activity implements OnClickListener, OnItemClickListener {
 	ArrayList<String> mItems;
@@ -52,6 +53,12 @@ public class CalendarActivity extends Activity implements OnClickListener, OnIte
 		if (arg0.getId() == R.id.bt1) {
 			int year = Integer.parseInt(textYear.getText().toString());
 			int mon = Integer.parseInt(textMon.getText().toString());
+			if (mon > 12) {
+				textMon.setText("12");
+				mon = 12;
+				Toast.makeText(getApplicationContext(),
+						"'월'이 잘못 입력되었습니다.", Toast.LENGTH_LONG).show();
+			}
 			fillDate(year, mon);
 		}
 	}
